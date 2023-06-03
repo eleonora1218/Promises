@@ -1,0 +1,32 @@
+/* Draw a Card */
+
+/* index.html */
+
+.draw-card-btn {
+    background-color: tomato;
+    color: white;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+}
+.draw-card-btn:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(161, 191, 161);
+}
+
+#card-area {
+margin-top: 80px;
+}
+
+#card-area > img {
+position: absolute;
+left: 0;
+right: 0;
+margin: auto;
+}
